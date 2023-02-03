@@ -1,0 +1,16 @@
+spring:
+   jpa:
+      database: mysql
+      show-sql: true
+      hibernate:
+         ddl-auto: update
+   datasource:
+      platform: mysql
+      url: jdbc:mysql://localhost:3306/myapp
+      username: root
+      password: root
+      driverClassName: com.mysql.cj.jdbc.Driver
+myapp:
+   storeid: 777
+   storename: samart krupa
+   storelocation: navghar
