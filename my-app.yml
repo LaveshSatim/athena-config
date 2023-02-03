@@ -10,3 +10,7 @@ spring:
       username: root
       password: root
       driverClassName: com.mysql.cj.jdbc.Driver
+myapp:
+   storeid: c7c7
+   storename: rajarani
+   storelocation: mumbai
