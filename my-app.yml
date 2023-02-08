@@ -37,6 +37,12 @@ myapp:
    storeid: gdfggf
    storename: fasni test
    storelocation: thane
+eureka:
+   client:
+      fetch-registry: false
+      register-with-eureka: true
+      service-url:
+         defaultZone: http://localhost:8889/eureka
 
 ...
 
